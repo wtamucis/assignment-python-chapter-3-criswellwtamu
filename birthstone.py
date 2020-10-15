@@ -1,29 +1,28 @@
 # Follow the assignment instructions to code an app that
 # will tell a user their birthstone.
-print("Enter the number of the month you were born (1-12)")
-user_input = 1
-birthstone = 8
-if birthstone == 1:
+user_input = input("Enter the number of the month you were born (1-12):")
+month = int(user_input)
+if month == 1:
     print("Your birthstone is garnet")
-elif birthstone == 2:
+elif month == 2:
     print("Your birthstone is amethyst")
-elif birthstone == 3:
+elif month == 3:
     print("Your birthstone is aquamarine")
-elif birthstone == 4:
+elif month == 4:
     print("Your birthstone is diamond")
-elif birthstone == 5:
+elif month == 5:
     print("Your birthstone is emerald")
-elif birthstone == 6:
+elif month == 6:
     print("Your birthstone is pearl")
-elif birthstone == 7:
+elif month == 7:
     print("Your birthstone is ruby")
-elif birthstone == 8:
+elif month == 8:
     print("Your birthstone is peridot")
-elif birthstone == 9:
+elif month == 9:
     print("Your birthstone is sapphire")
-elif birthstone == 10:
+elif month == 10:
     print("Your birthstone is opal")
-elif birthstone == 11:
+elif month == 11:
     print("Your birthstone is topaz")
-elif birthstone == 12:
+elif month == 12:
     print("Your birthstone is turquoise")
